@@ -1,0 +1,16 @@
+{
+	"name": "GitHub Community",
+	"image": "mcr.microsoft.com/vscode/devcontainers/base:focal",
+	"runArgs": [
+		"--init"
+	],
+	"remoteUser": "vscode",
+	"features": {
+		"git": "os-provided",
+		"github-cli": "latest"
+	},
+	"extensions": [
+		"davidanson.vscode-markdownlint",
+		"yzhang.markdown-all-in-one"
+	]
+}
